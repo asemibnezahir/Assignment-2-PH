@@ -13,3 +13,15 @@
 }
 
 
+/* Optional Logo Animation */
+.div-optional{
+  animation: Option 4s linear infinite;
+}
+@keyframes Option {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
