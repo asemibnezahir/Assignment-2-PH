@@ -17,11 +17,11 @@
 .div-optional{
   animation: Option 4s linear infinite;
 }
-@keyframes Option {
-  from {
+@keyframes Option{
+  from{
     transform: rotate(0deg);
   }
-  to {
+  to{
     transform: rotate(360deg);
   }
 }

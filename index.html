@@ -130,11 +130,11 @@
             </div>
         </section>
 
-        <section class="plants-lovers max-w-6xl mx-auto my-[5rem] relative">
-            <div class="div-optional max-h-[17.8rem] max-w-[17.8rem] absolute z-10 ml-[22rem]">
+        <section class="plants-lovers max-w-6xl mx-auto my-[5rem] relative max-sm:max-w-[490px] max-sm: max-auto max-sm:h-[450px]">
+            <div class="div-optional max-h-[17.8rem] max-w-[17.8rem] absolute z-10 ml-[22rem] max-sm:hidden">
                 <img src="assets/trusted-badge.png" alt="Trusted Seller Badge">
             </div>
-            <div class="div main-lovers-cont flex gap-16 mt-[8rem] items-center absolute">
+            <div class="div main-lovers-cont flex gap-16 mt-[8rem] items-center absolute max-sm:flex-col">
                 <div class="lovers-img">
                     <img src="assets/flower-store.png" alt="Flowers Store">
                 </div>
@@ -150,6 +150,42 @@
                 </div>
             </div>
         </section>
+
+        <section class="latest-deal max-w-6xl mx-auto mt-[65rem] mb-[7.5rem] max-sm:mx-[1rem]">
+            <div class="deal-content text-center mb-[7.5rem]">
+                <h1 class="deal-head notoserif-font text-5xl font-bold mb-[1rem]"><span class="text-[#E95A08]">Latest</span> Deals</h1>
+                <p class="deal-desc inter-font text-[22px] text-[rgba(0,0,0,0.5)] max-w-4xl mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="deal-template grid grid-cols-3 gap-5 max-sm:grid-cols-1">
+
+                <div class="for-left flex flex-col gap-5 justify-center">
+                    <div class="deal-card  relative rounded-xl overflow-hidden h-[200px] max-sm:w-[100%]">
+                        <img src="assets/deal-bloom.png" alt="Bloom Image" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center p-4">
+                            <h3 class="text-lg font-bold">60% Off | Bloom Plant</h3>
+                            <a href="#" class="underline font-semibold mt-2">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="deal-card relative rounded-xl overflow-hidden h-[200px]">
+                        <img src="assets/deal-ana.png" alt="Ana Plant" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center p-4">
+                            <h3 class="text-lg font-bold">30% Off | Ana Plant</h3>
+                            <a href="#" class="underline font-semibold mt-2">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="for-right col-span-2 relative rounded-xl overflow-hidden max-sm:col-span-1 max-sm:h-[200px]">
+                    <img src="assets/deal-zabo.png" alt="Zabo Plant" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center p-4">
+                        <h3 class="text-3xl font-bold">25% Off | Zabo Plant</h3>
+                        <a href="#" class="underline text-xl font-semibold mt-4">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
     </main>
 
 
